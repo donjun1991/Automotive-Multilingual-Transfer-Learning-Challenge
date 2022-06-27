@@ -1,0 +1,7 @@
+import pandas as pd
+
+train_cn = pd.read_excel('../下载数据/汽车领域多语种迁移学习挑战赛初赛训练集/中文_trian.xlsx')
+train_ja = pd.read_excel('../下载数据/汽车领域多语种迁移学习挑战赛初赛训练集/日语_train.xlsx')
+train_en = pd.read_excel('../下载数据/汽车领域多语种迁移学习挑战赛初赛训练集/英文_train.xlsx')
+test_ja = pd.read_excel('../下载数据/testA.xlsx', sheet_name='日语_testA')
+test_en = pd.read_excel('../下载数据/testA.xlsx', sheet_name='英文_testA')
